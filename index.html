@@ -1,12 +1,40 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon CV</title>
-</head>
-<body>
-    <h1>Mon CV</h1>
-    <p>Bienvenue sur mon CV en ligne.</p>
-</body>
-</html>
+<?php
+    // Informations personnelles
+    $nom = "Jean Dupont";
+    $email = "jean.dupont@example.com";
+    $telephone = "+33 6 12 34 56 78";
+    $adresse = "123, Rue de Paris, 75000 Paris, France";
+
+    // Expériences professionnelles
+    $experiences = [
+        [
+            "poste" => "Développeur Web",
+            "entreprise" => "Agence Web Paris",
+            "dates" => "Janvier 2020 - Présent",
+            "description" => "Développement de sites web en utilisant PHP, HTML, CSS et JavaScript."
+        ],
+        [
+            "poste" => "Stagiaire Développeur",
+            "entreprise" => "Startup Innovante",
+            "dates" => "Juillet 2019 - Décembre 2019",
+            "description" => "Conception et implémentation de fonctionnalités sur une application web."
+        ]
+    ];
+
+    // Compétences
+    $competences = ["PHP", "HTML", "CSS", "JavaScript", "MySQL", "Git"];
+
+    // Diplômes
+    $diplomes = [
+        [
+            "titre" => "Master en Informatique",
+            "ecole" => "Université de Paris",
+            "annee" => 2019
+        ],
+        [
+            "titre" => "Licence en Informatique",
+            "ecole" => "Université de Lyon",
+            "annee" => 2017
+        ]
+    ];
+?>
